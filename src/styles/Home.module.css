@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 200px;
+  font-family: Lucida, sans-serif;
+  background: linear-gradient(#4cb964, #8dc02f);
+}
+.tittleContainer{
+  padding-top: 80px;
+}
+.home p {
+  color: #d1fab0;
+  font-size: 2.5em;
+
+}
+.callToAction{
+  color: rgb(240, 240, 98);
+  background-color: rgb(0, 39, 7);
+  padding: 5px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.callToAction:hover{
+  padding: 15px;
+  cursor: pointer;
+  background: #44a173;
+  border-radius: 10px;
+  ;
+}
